@@ -17,7 +17,7 @@ let thala_text = document.querySelector(".thala_text");
 
 let length = null;
 const  isThala = () => {
-  length = input_area.value.toLowerCase().length;
+  length = input_area.value.trim().toLowerCase().length;
   if (length === jersey_number) {
     thala_text.classList.add("hidden");
          visible();
