@@ -25,7 +25,6 @@ const  isThala = () => {
           thala_vd.addEventListener('timeupdate',()=> {
             if(thala_vd.currentTime == thala_vd.duration){
               thala_vd.style.display = "none";
-
             }
         })
   } else if (parseInt(input_area.value) === 7) {
@@ -33,13 +32,19 @@ const  isThala = () => {
     visible();
      playVd();
      thala_vd.addEventListener('timeupdate',()=> {
-
+      thala_text.classList.add("hidden");
         if(thala_vd.currentTime == thala_vd.duration){
           thala_vd.style.display = "none";
+         
         }
   })
-} else {
+} else { 
+  if(thala_vd.currentTime > 0){
+    thala_text.classList.add("hidden");
+  } else {
     thala_text.classList.remove("hidden");
+  }
+    
   }
 }
 submit_button.addEventListener("click", isThala);
