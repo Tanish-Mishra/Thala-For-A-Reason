@@ -6,10 +6,10 @@ let thala_text = document.querySelector(".thala_text");
 // thala_vd.play()
 
 
-function playVd() {
-  thala_vd.play();
+async function playVd() {
+await thala_vd.play();
 }
-function visible() {
+ function visible() {
   thala_vd.style.display = "block";
 }
 
