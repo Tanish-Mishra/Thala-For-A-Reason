@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://wallpapercave.com/wp/wp4446237.jpg');
+    background: url('https://wallpapercave.com/wp/wp5975228.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -107,6 +107,7 @@ body {
     .container {
         height: 20rem;
         width: 30rem;
+        
         background-size: 30rem 20rem;
     }
 
@@ -173,7 +174,7 @@ body {
     .container {
         height: 18rem;
         width: 22rem;
-        background-size: 25rem 22rem;
+        background-size: 22rem 18rem;
     }
 
     .container .input_field {
