@@ -27,7 +27,7 @@ const  isThala = () => {
               thala_vd.style.display = "none";
             }
         })
-  } else if (parseInt(input_area.value) === 7) {
+  } else if (input_area.value == 7) {
     thala_text.classList.add("hidden");
     visible();
      playVd();
